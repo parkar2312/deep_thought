@@ -1,0 +1,114 @@
+.homepage{
+    display: flex;
+}
+.homepage_left{
+    position: fixed;
+}
+.homepage_right{
+    margin-left: 8rem;
+}
+.homepage_right_main{
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.homepage_right_header{
+    color: #0029FF;
+    font-weight: 700;
+    font-size: 28px;
+}
+.homepage_right_button{
+    background: #0029FF;
+    border-radius: 10px;
+    width:121px;
+    height:36px;
+    border: none;
+    color:white;
+}
+.homepage_right_main_2{
+    margin: 1rem;
+    width: 85%;
+    padding: .5rem;
+    background-color: #E9ECEF;
+    border-radius: 5px;
+}
+.homepage_right_main_3{
+    margin: 1rem;
+    color:black;
+}
+.homepage_box_one{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.homepage_right_main_3 .homepage_box{
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 460px;
+    height: 580px;
+    margin: 1rem;
+}
+.homepage_box_header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.homepage_box_main{
+    padding: 1rem;
+    height: 70px;
+    background: #FDFDFD;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.homepage_noti{
+    background: #000000;
+    border-radius: 30px 0px 0px 30px;
+    height: 394px;
+    width: 50px;
+    padding: 1rem;
+}
+.homepage_noti span{
+    padding-top: 2rem;
+    color:white;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.sidebar_header{
+    background: #000000;
+    border-radius: 0px 20px 0px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 1rem;
+}
+.sidebar_header_2{
+    background: #000000;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar_content{
+    height: 692px;
+    padding: 1rem;
+}
+.sidebar_square{
+    height: 68px;
+    width: 68px;
+    color: #0029FF;
+    border: 1px solid #0029FF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
