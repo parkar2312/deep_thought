@@ -5,10 +5,10 @@
     position: fixed;
 }
 .homepage_right{
-    margin-left: 8rem;
+    margin-left: 10rem;
 }
 .homepage_right_main{
-    width: 70rem;
+    width: 60rem;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -69,6 +69,7 @@
     height: 394px;
     width: 50px;
     padding: 1rem;
+    margin-right: 1rem;
 }
 .homepage_noti span{
     padding-top: 2rem;

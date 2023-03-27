@@ -20,9 +20,9 @@ function Homepage() {
   },[])
 
   return (
-    <div className="homepage">
+    <div >
        {data.tasks
-           ? <div>
+           ? <div className="homepage">
                 <div className="homepage_left">
                    <Sidebar sidebarWidth={isOpen ? "392px" : "132px"} >
                      <div onClick={() => setIsOpen(!isOpen)}>
@@ -95,12 +95,11 @@ function Homepage() {
                    </div>
                   </div>
                 </div>
-                <div>  
-                  <div className="homepage_noti"> 
+                <div className="homepage_noti"> 
                       <div><CloseIcon style={{ color: 'white' }}/></div>
                       <span>Notice Board</span>
                   </div>
-                </div>
+                
              </div>
            : ''
           }
